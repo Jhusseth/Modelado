@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Entrega_Final" id="3B2FDAE4-C966-802E-DE42-3BAFFDE0EF3E" version="3.5">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-26 22:47:19 UTC</createdTime>
+<ownerDesignName>Entrega_Final</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3B2FDAE4-C966-802E-DE42-3BAFFDE0EF3E</designId>
+</OSDM_Design>
