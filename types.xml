@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<logtypes>
+	<logicaltype name="unknown" objectid="LOGDT017" default="true">
+		<mapping rdbms="Oracle Database 12cR2">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 11g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 10g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle9i">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2012">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2008">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2005">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2000">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 8">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 7">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 9">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 8.1">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 7.1">UNKNOWN</mapping>
+	</logicaltype>
+	<logicaltype name="Varchar" objectid="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1">
+		<mapping rdbms="Oracle Database 12cR2">VARCHAR2</mapping>
+		<mapping rdbms="Oracle Database 12c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 11g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 10g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle9i">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2012">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2008">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2005">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2000">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 8">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 7">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 9">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 8.1">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 7.1">UNKNOWN</mapping>
+	</logicaltype>
+	<logicaltype name="Numeric" objectid="D6374221-8950-7C25-229D-804D8BAD0F5F">
+		<mapping rdbms="Oracle Database 12cR2">NUMERIC</mapping>
+		<mapping rdbms="Oracle Database 12c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 11g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 10g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle9i">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2012">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2008">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2005">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2000">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 8">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 7">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 9">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 8.1">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 7.1">UNKNOWN</mapping>
+	</logicaltype>
+	<logicaltype name="DateTime" objectid="2B5F5472-1994-1D2E-5BA9-ADB3F87589DD">
+		<mapping rdbms="Oracle Database 12cR2">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 12c">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 11g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle Database 10g">UNKNOWN</mapping>
+		<mapping rdbms="Oracle9i">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2012">DATETIME</mapping>
+		<mapping rdbms="SQL Server 2008">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2005">UNKNOWN</mapping>
+		<mapping rdbms="SQL Server 2000">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 8">UNKNOWN</mapping>
+		<mapping rdbms="DB2/390 7">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 9">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 8.1">UNKNOWN</mapping>
+		<mapping rdbms="DB2/UDB 7.1">UNKNOWN</mapping>
+	</logicaltype>
+	<native_to_logical_mappings>
+		<mappings_for_RDBMS_type rdbms_type="Oracle Database 12cR2">
+			<mapping native_type="CHAR VARYING" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="CHARACTER VARYING" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="LONG" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="NUMBER" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="NUMERIC" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="VARCHAR" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="VARCHAR2" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="Oracle Database 12c">
+			<mapping native_type="CHAR VARYING" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="CHARACTER VARYING" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="LONG" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="NUMBER" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="NUMERIC" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="VARCHAR" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="VARCHAR2" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="Oracle Database 11g">
+			<mapping native_type="CHAR VARYING" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="CHARACTER VARYING" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="LONG" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="NUMBER" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="NUMERIC" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="VARCHAR" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="VARCHAR2" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="Oracle Database 10g">
+			<mapping native_type="CHAR VARYING" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="CHARACTER VARYING" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="LONG" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="NUMBER" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="NUMERIC" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="VARCHAR" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="VARCHAR2" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="Oracle9i">
+			<mapping native_type="CHAR VARYING" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="CHARACTER VARYING" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="LONG" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="NUMBER" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="NUMERIC" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="VARCHAR" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="VARCHAR2" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="SQL Server 2012">
+			<mapping native_type="DATETIME" logicaltype="DateTime" log_type_id="2B5F5472-1994-1D2E-5BA9-ADB3F87589DD" />
+			<mapping native_type="NUMERIC" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="VARCHAR" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="SQL Server 2008">
+			<mapping native_type="DATETIME" logicaltype="DateTime" log_type_id="2B5F5472-1994-1D2E-5BA9-ADB3F87589DD" />
+			<mapping native_type="NUMERIC" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="VARCHAR" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="SQL Server 2005">
+			<mapping native_type="DATETIME" logicaltype="DateTime" log_type_id="2B5F5472-1994-1D2E-5BA9-ADB3F87589DD" />
+			<mapping native_type="NUMERIC" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="VARCHAR" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="SQL Server 2000">
+			<mapping native_type="DATETIME" logicaltype="DateTime" log_type_id="2B5F5472-1994-1D2E-5BA9-ADB3F87589DD" />
+			<mapping native_type="NUMERIC" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="VARCHAR" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="DB2/390 8">
+			<mapping native_type="CHAR VARYING" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="CHARACTER VARYING" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="LONG VARCHAR" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="NUMERIC" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="VARCHAR" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="DB2/390 7">
+			<mapping native_type="CHAR VARYING" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="CHARACTER VARYING" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="LONG VARCHAR" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="NUMERIC" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="VARCHAR" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="DB2/UDB 9">
+			<mapping native_type="CHAR VARYING" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="CHARACTER VARYING" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="LONG VARCHAR" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="NUMERIC" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="VARCHAR" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="DB2/UDB 8.1">
+			<mapping native_type="CHAR VARYING" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="CHARACTER VARYING" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="LONG VARCHAR" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="NUMERIC" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="VARCHAR" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+		</mappings_for_RDBMS_type>
+		<mappings_for_RDBMS_type rdbms_type="DB2/UDB 7.1">
+			<mapping native_type="CHAR VARYING" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="CHARACTER VARYING" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="LONG VARCHAR" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+			<mapping native_type="NUMERIC" logicaltype="Numeric" log_type_id="D6374221-8950-7C25-229D-804D8BAD0F5F" />
+			<mapping native_type="VARCHAR" logicaltype="Varchar" log_type_id="FFD1549A-1765-B89F-3B09-3D84FE8EA9F1" />
+		</mappings_for_RDBMS_type>
+	</native_to_logical_mappings>
+	<ud_native_db_types />
+</logtypes>
