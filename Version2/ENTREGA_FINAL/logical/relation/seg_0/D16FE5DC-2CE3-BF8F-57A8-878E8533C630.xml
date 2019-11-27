@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DESTINATARIO_CORREO_DESTINATARIO" directorySegmentName="seg_0" id="D16FE5DC-2CE3-BF8F-57A8-878E8533C630">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 05:28:10 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<sourcePk>E720F25D-4CFE-010D-FE2C-F25F771985FC</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2DE44C28-F2CF-4F5F-7D04-77FB7F7C5D2E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2F609F8E-6314-0007-EEC6-2AA1163AB2F5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

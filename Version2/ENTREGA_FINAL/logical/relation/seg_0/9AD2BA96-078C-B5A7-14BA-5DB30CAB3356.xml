@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_COLABORADOR_NOTIFICACION" directorySegmentName="seg_0" id="9AD2BA96-078C-B5A7-14BA-5DB30CAB3356">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 05:33:59 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<sourcePk>EF0D7A32-D05E-204B-DFFE-7C2752E3BDB4</sourcePk>
+<targetPk>0FE0417B-132D-193B-0547-706639852AFD</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CF8F9622-CAF9-FBDB-799B-4FADD2A89E91</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>70443460-ABBB-6DAC-A61E-2B2F80EE45B6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

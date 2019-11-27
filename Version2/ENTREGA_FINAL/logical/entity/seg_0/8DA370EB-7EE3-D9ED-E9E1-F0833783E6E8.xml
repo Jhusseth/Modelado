@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8DA370EB-7EE3-D9ED-E9E1-F0833783E6E8" name="NOTIFICACION_DESTINATARIO">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 05:28:54 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_DESTINATARIO" id="EEC43933-EEB8-C4DA-E71E-B92428A2D22E">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 05:29:16 UTC</createdTime>
+<generatorID>92F26803-A08E-E85E-B974-260D052E46F3</generatorID>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<referedAttribute>3CB6723C-6F2C-C77A-C661-2641E48AED1F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>D6374221-8950-7C25-229D-804D8BAD0F5F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_NOTIFICACION" id="C72E175E-B8E2-6B93-017A-975875504455">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 05:29:50 UTC</createdTime>
+<generatorID>7C8D242D-52C1-9508-9EB1-141005629A96</generatorID>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<referedAttribute>B3CDB3EB-8A7A-ABCF-6096-834A562DCCCE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FRECUENCIA_NOTIFICACIONES" id="1ABDB45E-B5B7-6D90-4DDB-12FB0490EE46">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 05:29:50 UTC</createdTime>
+<generatorID>7C8D242D-52C1-9508-9EB1-141005629A96</generatorID>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<referedAttribute>D55C7D8F-889C-EC1D-D05D-AB5EEAB307E0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>FFD1549A-1765-B89F-3B09-3D84FE8EA9F1</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="22BB4AF9-A69F-5950-3344-A65071AB6AE4" name="NOTIFICACION_DESTINATARIO PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 05:29:16 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EEC43933-EEB8-C4DA-E71E-B92428A2D22E</attributeRef>
+<attributeRef>C72E175E-B8E2-6B93-017A-975875504455</attributeRef>
+<attributeRef>1ABDB45E-B5B7-6D90-4DDB-12FB0490EE46</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

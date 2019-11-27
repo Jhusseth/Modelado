@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_TEMA_CUADRANTE" directorySegmentName="seg_0" id="F03C9E26-2284-13DD-6893-4BDB0B914E3A">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 04:57:03 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<sourcePk>D8D62B26-3C51-58D0-28A7-11CC395678DF</sourcePk>
+<targetPk>7046BCA8-1335-75B6-1246-E8AD9227F554</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B0D91189-58A1-0065-E731-0DE64655C0F6</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>51D5F795-DEAC-8ECE-113C-74160F428F0C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

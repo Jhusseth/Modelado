@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TEMA_MADUREZ" directorySegmentName="seg_0" id="0F892E1A-E208-C081-4505-57FF7461CB2F">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 04:57:24 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<sourcePk>D8D62B26-3C51-58D0-28A7-11CC395678DF</sourcePk>
+<targetPk>F7E98C2B-85AF-A253-0E1E-8222BFE220F0</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B0D91189-58A1-0065-E731-0DE64655C0F6</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>4C3D3303-3F58-8C7B-F63D-78A289B43D95</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

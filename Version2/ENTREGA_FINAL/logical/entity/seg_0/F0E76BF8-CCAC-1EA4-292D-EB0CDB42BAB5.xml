@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F0E76BF8-CCAC-1EA4-292D-EB0CDB42BAB5" name="USUARIO_REGISTRADO">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 04:43:30 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_USUARIO_REGISTRADO" id="27C089D5-31AD-EEA3-EE10-E2DC26E7A6D4">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 04:44:15 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>D6374221-8950-7C25-229D-804D8BAD0F5F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_USUARIO" id="612DB575-3368-329A-DD68-D76E315EF7FC">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 04:45:35 UTC</createdTime>
+<generatorID>24F6CD8B-7AC2-879B-EB1D-BE9CFA41314E</generatorID>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<referedAttribute>72A636CD-7D36-3F4D-8A93-A625F6F94DA0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>D6374221-8950-7C25-229D-804D8BAD0F5F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AF0A03C7-9A99-1193-55F8-AFBD6BF96EBA" name="USUARIO_REGISTRADO PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 04:44:31 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>27C089D5-31AD-EEA3-EE10-E2DC26E7A6D4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

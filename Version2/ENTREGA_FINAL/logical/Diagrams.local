@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="main_view" objectID="C2E36C00-D7B2-D310-5292-6667C86BC57E" name="Logical" visible="true"/>
+   <object objectType="sub_view" objectID="95E007C4-1251-66A4-B51F-0585474FCA98" name="Administrador" visible="true"/>
+   <object objectType="sub_view" objectID="D75E6C49-E5AF-4C0A-4971-2A96369EA387" name="Matricula" visible="true"/>
+   <object objectType="sub_view" objectID="9C4519FD-110D-A302-5C54-D39DD23D91F6" name="Usuario" visible="true"/>
+   <object objectType="sub_view" objectID="3083429F-8512-984B-FFF5-65301655D236" name="Visualizacion" visible="true"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
