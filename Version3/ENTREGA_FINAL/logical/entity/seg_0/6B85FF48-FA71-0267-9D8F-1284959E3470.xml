@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B85FF48-FA71-0267-9D8F-1284959E3470" name="CORREO_TEMA_SUGERIDO">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 06:24:47 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CORREO_TEMA_SUGERIDO" id="E8A3A19C-7EEF-DD77-D6F2-1FEB7A9C1F9F">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 06:25:11 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>D6374221-8950-7C25-229D-804D8BAD0F5F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_SUGERENCIA_TEMA" id="CC05BDFD-4DF1-D16A-83DA-15DF724448BF">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 06:26:41 UTC</createdTime>
+<generatorID>F9F3E7CA-7D1A-3A5F-9B09-6901EF8A90AC</generatorID>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<referedAttribute>EB309E68-8B8B-A681-F7FA-D08D0E76D8C3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>D6374221-8950-7C25-229D-804D8BAD0F5F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="07E7BAB1-ECCC-716C-DB89-FB8119F1C023" name="CORREO_TEMA_SUGERIDO PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 06:25:22 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E8A3A19C-7EEF-DD77-D6F2-1FEB7A9C1F9F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

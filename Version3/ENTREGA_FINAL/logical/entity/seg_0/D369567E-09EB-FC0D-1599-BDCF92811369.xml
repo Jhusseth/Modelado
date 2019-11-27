@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D369567E-09EB-FC0D-1599-BDCF92811369" name="CAMBIO_TEMA">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 06:33:52 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CAMBIO" id="A5473539-B9AE-E7B8-A5E4-2FFF2D238D9D">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 06:34:05 UTC</createdTime>
+<generatorID>9448D498-B08B-4513-A201-C5DB4164D5AF</generatorID>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<referedAttribute>A12CF456-EB02-D77F-D027-D413C38CA192</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>D6374221-8950-7C25-229D-804D8BAD0F5F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_TEMAS" id="6395B04F-20F2-8C31-9067-FAEF41CAD84F">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 06:35:04 UTC</createdTime>
+<generatorID>F8932DAD-4C25-0F37-B1E6-A5709DE6C5CD</generatorID>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<referedAttribute>37A70DCF-5247-B424-F0B1-EAF8BA152AA9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>D6374221-8950-7C25-229D-804D8BAD0F5F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="303033B6-E04F-2D86-CC53-0076860DEEF0" name="CAMBIO_TEMA PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 06:34:05 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A5473539-B9AE-E7B8-A5E4-2FFF2D238D9D</attributeRef>
+<attributeRef>6395B04F-20F2-8C31-9067-FAEF41CAD84F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

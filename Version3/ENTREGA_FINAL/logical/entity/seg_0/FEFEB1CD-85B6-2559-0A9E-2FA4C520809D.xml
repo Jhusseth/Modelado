@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FEFEB1CD-85B6-2559-0A9E-2FA4C520809D" name="TEMA_SUGERENCIA">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 05:57:36 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TEMAS" id="7CB2F3C7-F284-5152-39B2-D133FC0EA9A8">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 05:57:57 UTC</createdTime>
+<generatorID>80505E16-F382-3973-BEA8-6102390BA1A5</generatorID>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<referedAttribute>37A70DCF-5247-B424-F0B1-EAF8BA152AA9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>D6374221-8950-7C25-229D-804D8BAD0F5F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_SUGERENCIA" id="B3F6A308-19C5-2382-0B00-D0E00B4C620D">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 05:58:32 UTC</createdTime>
+<generatorID>917E992C-A6EE-B354-D8A3-09F83382397C</generatorID>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<referedAttribute>F80606A6-64D3-DEA7-F822-8CAC975EA5A5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>FFD1549A-1765-B89F-3B09-3D84FE8EA9F1</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PALABRA" id="C1AD2CD4-0533-61A0-F6EA-58DD2C2399A4">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 05:58:32 UTC</createdTime>
+<generatorID>917E992C-A6EE-B354-D8A3-09F83382397C</generatorID>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<referedAttribute>71076149-6FC5-B5B0-DD2D-ECDA45A6EDC9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>FFD1549A-1765-B89F-3B09-3D84FE8EA9F1</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1C579D20-AF7B-A8BC-D2EB-2902513B4BE9" name="TEMA_SUGERENCIA PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 05:57:57 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7CB2F3C7-F284-5152-39B2-D133FC0EA9A8</attributeRef>
+<attributeRef>B3F6A308-19C5-2382-0B00-D0E00B4C620D</attributeRef>
+<attributeRef>C1AD2CD4-0533-61A0-F6EA-58DD2C2399A4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

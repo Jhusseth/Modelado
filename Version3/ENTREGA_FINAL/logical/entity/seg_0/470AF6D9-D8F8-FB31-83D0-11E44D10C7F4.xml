@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="470AF6D9-D8F8-FB31-83D0-11E44D10C7F4" name="CAMBIO">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 06:32:29 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CAMBIO" id="A12CF456-EB02-D77F-D027-D413C38CA192">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 06:32:35 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>D6374221-8950-7C25-229D-804D8BAD0F5F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA" id="E7EDB237-DE78-946D-CD6F-C6E385431A5E">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 06:32:43 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>2B5F5472-1994-1D2E-5BA9-ADB3F87589DD</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="4C3D44B1-FB9B-E614-2783-79E30FC8FAE9">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 06:33:00 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>FFD1549A-1765-B89F-3B09-3D84FE8EA9F1</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ADMINISTRATIVO" id="65360694-1B16-4FD0-4DD4-B37D8F9DEC8C">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 06:35:44 UTC</createdTime>
+<generatorID>99A350CE-ABCF-ECA3-1611-73B585626AE0</generatorID>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<referedAttribute>C79B0680-0D71-6DEF-8801-2B6A196E7474</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>D6374221-8950-7C25-229D-804D8BAD0F5F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="091BCD4C-DA00-62F3-AFAC-0A372553BAAE">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 06:35:44 UTC</createdTime>
+<generatorID>99A350CE-ABCF-ECA3-1611-73B585626AE0</generatorID>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<referedAttribute>408AF714-FE53-B15D-1F79-603D802B223C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>FFD1549A-1765-B89F-3B09-3D84FE8EA9F1</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_NOTIFICACION" id="5AAD81BF-6278-18C9-A8DD-439FB70D4C31">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 06:37:40 UTC</createdTime>
+<generatorID>059D3D0C-7E2A-71B3-E166-0E6FFED28507</generatorID>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<referedAttribute>B3CDB3EB-8A7A-ABCF-6096-834A562DCCCE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F27C2523-3705-0AD1-4D46-039DBC695203" name="CAMBIOS PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 06:32:57 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A12CF456-EB02-D77F-D027-D413C38CA192</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

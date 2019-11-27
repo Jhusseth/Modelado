@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_SUGERENCIA_HISTORIAL_BUSQUEDA" directorySegmentName="seg_0" id="544C954C-9D84-046F-34CC-9C58DFEB4364">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 06:07:23 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<sourcePk>82131FB4-EBF4-516D-049B-507AC9F0DC92</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B2E34428-5DE9-B6A0-8671-74C3967BEAD0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E158813C-87C8-4021-B9D0-763C98A31D58</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1FB782D4-8271-3378-9310-4FF88773A81F" name="INGRESO_USUARIO">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 05:47:34 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_USUARIO" id="E2949E5F-E8FC-3C89-BB31-2B035B8D94B0">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 05:47:58 UTC</createdTime>
+<generatorID>59A7F9A8-B50A-061A-F058-897CE5A46774</generatorID>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<referedAttribute>72A636CD-7D36-3F4D-8A93-A625F6F94DA0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>D6374221-8950-7C25-229D-804D8BAD0F5F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_INGRESO" id="32EF901D-E8CF-77D0-1DFF-4DD3BAC013E2">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 05:48:41 UTC</createdTime>
+<generatorID>5E321C0A-47C7-4EB0-0579-6D3C029E3A47</generatorID>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<referedAttribute>A99AF7B3-1AFB-3922-7422-431DA86CB021</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>D6374221-8950-7C25-229D-804D8BAD0F5F</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_INGRESO" id="1BBEB260-C048-8166-09E1-9195FBD25ADD">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 05:48:41 UTC</createdTime>
+<generatorID>5E321C0A-47C7-4EB0-0579-6D3C029E3A47</generatorID>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<referedAttribute>3C38C135-C175-70F1-8EC9-3C9E50A4F40A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>FFD1549A-1765-B89F-3B09-3D84FE8EA9F1</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="37631F93-547A-DDBB-6FB4-4D32461888E4" name="INGRESO_USUARIO PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 05:47:58 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E2949E5F-E8FC-3C89-BB31-2B035B8D94B0</attributeRef>
+<attributeRef>32EF901D-E8CF-77D0-1DFF-4DD3BAC013E2</attributeRef>
+<attributeRef>1BBEB260-C048-8166-09E1-9195FBD25ADD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

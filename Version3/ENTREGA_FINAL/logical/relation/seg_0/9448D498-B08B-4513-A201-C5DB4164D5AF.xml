@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_CAMBIO_TEMA_CAMBIO" directorySegmentName="seg_0" id="9448D498-B08B-4513-A201-C5DB4164D5AF">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 06:34:05 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<sourcePk>F27C2523-3705-0AD1-4D46-039DBC695203</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>470AF6D9-D8F8-FB31-83D0-11E44D10C7F4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D369567E-09EB-FC0D-1599-BDCF92811369</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
