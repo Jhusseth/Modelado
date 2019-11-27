@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_BUSQUEDA_COLABORADOR" directorySegmentName="seg_0" id="C8DFD141-A5BF-5DE2-8AF5-591EEFCE355A">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 01:50:36 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<sourcePk>9D8535B7-0103-D205-B514-6DF495592A27</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8D3A02BF-46A3-A1A9-B695-381A4C5F8437</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5D56C7A7-AF4A-809A-29C1-BC2189D26967</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

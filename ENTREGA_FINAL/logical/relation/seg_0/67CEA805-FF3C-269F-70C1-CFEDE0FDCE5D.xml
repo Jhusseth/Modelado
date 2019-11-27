@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_GUIA_ROL_INSCRIPCION" directorySegmentName="seg_0" id="67CEA805-FF3C-269F-70C1-CFEDE0FDCE5D">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-11-27 02:36:22 UTC</createdTime>
+<ownerDesignName>ENTREGA_FINAL</ownerDesignName>
+<engineerTo>
+<item key="55A4BF00-59B0-42EE-0038-FE6EE1E5680E" value="true"/>
+</engineerTo>
+<sourcePk>1C3C98EB-A091-95A2-A0A3-5D1351B34225</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>73D08770-0BC4-3097-44C2-3AF79EDDE560</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9CA03BD4-805D-7895-7B49-F64B441942B7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
